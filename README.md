@@ -1,32 +1,46 @@
-# Hi there, I'm Ali! 👋 🇮🇶
-### Android Developer | UI/UX Enthusiast | Hardware Expert
+# Hi there! I'm Ali 👋 
+### 📱 Android Developer | Kotlin Enthusiast
 
 ---
 
-## 🎵 My Featured Project: MP3 Music Player Pro
-An advanced Android music player built with **Kotlin**, featuring:
-* **Neon Glow UI:** Modern dark aesthetics.
-* **Audio Visualizer:** High-performance dynamic waves.
-
-
-[🚀 Download Latest APK (MediaFire)](https://www.mediafire.com/file/4dsjll90ti0oc5j/My_Musicplayer.apk/file)
+## 🎨 My Style & Focus
+I specialize in creating media-centric applications with a unique visual touch. I love working with:
+* **Neon Glow Aesthetics:** High-contrast, vibrant UI elements.
+* **Mandala Art:** Intricate patterns for custom theme selectors.
+* **Performance:** Optimized for high-end systems (i7/16GB RAM).
 
 ---
 
-## 🛠️ Technical Arsenal
-* **Languages:** Kotlin (Core), XML (Layout Design).
-* **Tools:** Android Studio, Gradle, Git/GitHub.
-* **Database:** Room Database (Local Storage).
-* **System Optimization:** Expert in RAM Management & Thermal Maintenance.
+## 🎵 Featured Project: Ringtone Player Pro
+This is my latest project built with modern Android technologies.
+
+### ✨ Key Features:
+* **Kotlin & Material Design:** Clean and modern codebase.
+* **Room Database:** Efficient local data management.
+* **Glide:** Smooth image loading for album arts.
+* **Custom UI:** Neon-themed player and Mandala skin selector.
 
 ---
 
-## 📊 Tech Stack & Tools
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+## 📥 Download & Try
+You can download the latest version (v1.2) directly from the link below:
+
+👉 [**Download My Music Player APK**](https://www.mediafire.com/file/4dsjll90ti0oc5j/My_Musicplayer.apk/file)
 
 ---
 
-## 📫 Connect with me
-* **Check my Gists:** [aliali0301050-dev Snippets](https://gist.github.com/aliali0301050-dev)
+## 🛠️ Tech Stack
+* **Languages:** Kotlin, Java.
+* **Libraries:** Room, Glide, Retrofit.
+* **Tools:** Android Studio, Git/GitHub, MediaFire.
+
+---
+
+## 📈 Project Status
+- [x] **Music Player:** Published.
+- [x] **Ringtone Player:** v1.2 Released.
+- [ ] **Professional Video Player:** In Development 🏗️
+
+---
+
+📫 **How to reach me:** Check my repositories for more!
