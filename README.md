@@ -9,7 +9,7 @@ An advanced Android music player built with **Kotlin**, featuring:
 * **Audio Visualizer:** High-performance dynamic waves.
 
 
-[🚀 Download Latest APK (MediaFire)](https://gist.github.com/aliali0301050-dev/c57f08d0af9957d43af6115f02cbc80f)
+[🚀 Download Latest APK (MediaFire)](https://www.mediafire.com/file/4dsjll90ti0oc5j/My_Musicplayer.apk/file)
 
 ---
 
