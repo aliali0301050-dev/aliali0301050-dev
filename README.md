@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hi there, I'm Ali! 👋 🇮🇶
+### Android Developer | UI/UX Enthusiast | Hardware Expert
 
-<!--
-**aliali0301050-dev/aliali0301050-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🎵 My Featured Project: MP3 Music Player Pro
+An advanced Android music player built with **Kotlin**, featuring:
+* **Neon Glow UI:** Modern dark aesthetics.
+* **Audio Visualizer:** High-performance dynamic waves.
+* **Optimized Build:** Tested for stability on high-end hardware (i7 + 16GB RAM).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[🚀 Download Latest APK (MediaFire)](https://www.mediafire.com/file/orodu84weu02cz0/My_Musicplayer.apk/file)
+
+---
+
+## 🛠️ Technical Arsenal
+* **Languages:** Kotlin (Core), XML (Layout Design).
+* **Tools:** Android Studio, Gradle, Git/GitHub.
+* **Database:** Room Database (Local Storage).
+* **System Optimization:** Expert in RAM Management & Thermal Maintenance.
+
+---
+
+## 📊 Tech Stack & Tools
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+## 📫 Connect with me
+* **Check my Gists:** [aliali0301050-dev Snippets](https://gist.github.com/aliali0301050-dev)
