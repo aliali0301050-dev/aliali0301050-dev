@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="100" android:exitFadeDuration="100">
+    <!-- Pressed State: Inset/Grown In -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Inner Shadow Dark (Top Left) -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#25000000" />
+                </shape>
+            </item>
+            <!-- Inner Shadow Light (Bottom Right) -->
+            <item android:left="2dp" android:top="2dp">
+                <shape android:shape="oval">
+                    <solid android:color="#60FFFFFF" />
+                </shape>
+            </item>
+            <!-- Sunken Button Face -->
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape android:shape="oval">
+                    <gradient
+                        android:angle="135"
+                        android:endColor="#F0F0F0"
+                        android:startColor="#D1D1D1"
+                        android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Default State: Extruded Out -->
+    <item>
+        <layer-list>
+            <!-- Shadow Dark (Bottom Right) -->
+            <item
+                android:bottom="0dp"
+                android:left="3dp"
+                android:right="0dp"
+                android:top="3dp">
+                <shape android:shape="oval">
+                    <solid android:color="#60000000" />
+                </shape>
+            </item>
+            <!-- Shadow Light (Top Left) -->
+            <item
+                android:bottom="3dp"
+                android:left="0dp"
+                android:right="3dp"
+                android:top="0dp">
+                <shape android:shape="oval">
+                    <solid android:color="#40FFFFFF" />
+                </shape>
+            </item>
+            <!-- Button Face -->
+            <item
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp">
+                <shape android:shape="oval">
+                    <gradient
+                        android:angle="135"
+                        android:endColor="#D1D1D1"
+                        android:startColor="#F5F5F5"
+                        android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

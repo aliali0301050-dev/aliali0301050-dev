@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pageMargin">20dp</dimen>
+    <dimen name="offset">40dp</dimen>
+
+    <!-- Video Player Dimensions -->
+    <dimen name="control_button_size">48dp</dimen>
+    <dimen name="play_button_size">80dp</dimen>
+    <dimen name="gesture_indicator_size">140dp</dimen>
+    <dimen name="bottom_controls_padding">20dp</dimen>
+</resources>

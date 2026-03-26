@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- الطبقة الخارجية: التوهج (Glow) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <gradient
+                android:startColor="#4D00E5FF"
+                android:centerColor="#1A00E5FF"
+                android:endColor="#4D00E5FF"
+                android:angle="0" />
+            <padding android:top="2dp" android:bottom="2dp" />
+        </shape>
+    </item>
+
+    <!-- الطبقة الداخلية: الخيط المشع (Neon Wire) -->
+    <item android:left="2dp" android:right="2dp" android:top="1dp" android:bottom="1dp">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="10dp" />
+                <solid android:color="@color/theme_accent_neon" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

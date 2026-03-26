@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الألوان الأساسية -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- [THEME LOGIC] ألوان الوظيفة (Semantic) - ناعمة وحريرية -->
+    <color name="theme_primary_bg">#05070A</color>
+    <color name="theme_secondary_bg">#000000</color>
+    <color name="theme_accent_neon">#00E5FF</color> <!-- نيون سيان مريح -->
+    <color name="theme_glow_color">#3300E5FF</color> <!-- توهج ناعم جداً -->
+
+    <color name="text_high_emphasis">#FFFFFF</color>
+    <color name="text_medium_emphasis">#B3FFFFFF</color>
+    <color name="text_low_emphasis">#80FFFFFF</color>
+
+    <!-- [COMPATIBILITY] تأمين كافة المسميات التي سببت أخطاء سابقاً -->
+    <color name="primary">@color/theme_primary_bg</color>
+    <color name="primary_light">#161B22</color>
+    <color name="accent">@color/theme_accent_neon</color>
+    <color name="background">@color/theme_primary_bg</color>
+    <color name="premium_dark_bg">#05070A</color>
+    <color name="bg_deep_navy">#05070A</color>
+    <color name="hot_pink">#FF2D75</color>
+    <color name="accent_neon_pink">#FF2D75</color>
+    <color name="accent_neon_cyan">#00E5FF</color>
+    <color name="accent_neon_blue">#448AFF</color>
+    <color name="neon_blue">#448AFF</color>
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="text_white_pure">#FFFFFF</color>
+    <color name="text_white_secondary">#B3FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_sub">#80FFFFFF</color>
+    <color name="error">#FF3B30</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFCC00</color>
+    <color name="bg_card">#1AFFFFFF</color>
+    <color name="card_bg">#1AFFFFFF</color>
+    <color name="bg_silk_deep">#0F0C29</color>
+    <color name="bg_silk_plum">#251329</color>
+    <color name="midnight_blue_1">#0F0C29</color>
+    <color name="midnight_blue_2">#05070A</color>
+    <color name="midnight_blue_3">#000000</color>
+
+    <!-- Glassmorphism -->
+    <color name="glass_background">#1AFFFFFF</color>
+    <color name="glass_white_10">#1AFFFFFF</color>
+    <color name="glass_white_20">#33FFFFFF</color>
+    <color name="glass_stroke">#26FFFFFF</color>
+    <color name="glass_card">#1F2442</color>
+
+    <!-- [PALETTES] لوحات الألوان الملكية المصدر -->
+    <color name="palette_silk_top">#1A1025</color>
+    <color name="palette_silk_neon">#FF5C8D</color>
+    <color name="palette_cyber_top">#0A1A2A</color>
+    <color name="palette_cyber_neon">#40C4FF</color>
+    <color name="palette_forest_top">#0D1F14</color>
+    <color name="palette_forest_neon">#66BB6A</color>
+    <color name="palette_royal_top">#1E102E</color>
+    <color name="palette_royal_neon">#AB47BC</color>
+    <color name="palette_gold_top">#1A1608</color>
+    <color name="palette_gold_neon">#FFC107</color>
+</resources>

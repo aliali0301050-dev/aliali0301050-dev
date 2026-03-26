@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مشغل موسيقى MP3</string>
+
+    <string name="tab_songs">الأغاني</string>
+    <string name="tab_playlists">قوائم التشغيل</string>
+    <string name="tab_folders">المجلدات</string>
+    <string name="tab_artists">الفنانين</string>
+    <string name="tab_albums">الألبومات</string>
+    <string name="tab_genres">التصنيفات</string>
+    <string name="tab_books">كتب صوتية</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="tab_all_songs">كل الأغاني</string>
+    <string name="tab_downloads">التحميلات</string>
+    <string name="tab_favorites">المفضلة</string>
+    <string name="tab_recent">الأخيرة</string>
+
+    <string name="select_identity">اختر المظهر</string>
+    <string name="theme_midnight_gold">ذهب منتصف الليل</string>
+    <string name="theme_royal_violet">البنفسجي الملكي</string>
+    <string name="theme_ocean_cyan">سماوي المحيط</string>
+    <string name="theme_cyber_red">الأحمر السيبراني</string>
+    <string name="theme_cyber_rose">رز سيبراني (نيون)</string>
+    <string name="theme_electric_violet">بنفسجي كهربائي</string>
+    <string name="theme_ice_cyan">جليد سماوي</string>
+    <string name="theme_toxic_lime">ليموني سام</string>
+    <string name="theme_sunset_orange">برتقالي الغروب</string>
+    <string name="theme_midnight_eclipse">كسوف منتصف الليل</string>
+    <string name="theme_customization">تخصيص المظهر</string>
+    <string name="theme_black">أسود ملكي</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_dynamic">ديناميكي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_system">النظام</string>
+
+    <string name="change_background">تغيير الخلفية</string>
+    <string name="bg_category_gradient">تدرجات لونيّة [%d]</string>
+    <string name="bg_category_solid">ألوان ثابتة [%d]</string>
+    <string name="bg_category_nature">طبيعة [%d]</string>
+    <string name="bg_category_custom">صورك [%d]</string>
+    <string name="bg_swipe_hint">اسحب للمزيد</string>
+    <string name="pick_from_gallery">اختر من المعرض</string>
+    <string name="background_updated">تم تحديث الخلفية بنجاح</string>
+
+    <string name="play">تشغيل</string>
+    <string name="play_all">تشغيل الكل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="shuffle">عشوائي</string>
+    <string name="shuffle_all">تشغيل عشوائي للكل</string>
+    <string name="lyrics">الكلمات</string>
+    <string name="now_playing">يتم تشغيله الآن</string>
+    <string name="next_track">الأغنية التالية</string>
+    <string name="prev_track">الأغنية السابقة</string>
+    <string name="repeat_all">تكرار الكل</string>
+    <string name="repeat_one">تكرار واحد</string>
+    <string name="playback_speed">سرعة التشغيل</string>
+    <string name="playback_speed_msg">السرعة: %s</string>
+    <string name="equalizer">الموازن</string>
+    <string name="off">إيقاف</string>
+
+    <string name="play_format">تشغيل (%1$d/%2$d)</string>
+    <string name="play_count_format">تشغيل (%d)</string>
+    <string name="track_index_format">#%1$d/%2$d</string>
+    <string name="volume_percent_format">%d%%</string>
+    <string name="song_count_format">%d أغنية</string>
+
+    <string name="sort">ترتيب</string>
+    <string name="sort_name">الاسم</string>
+    <string name="sort_date">التاريخ</string>
+    <string name="sort_artist">اسم الفنان</string>
+    <string name="sort_album">الألبوم</string>
+    <string name="sort_ascending">تصاعدي</string>
+    <string name="sort_descending">تنازلي</string>
+    <string name="sort_duration">المدة</string>
+    <string name="sort_size">الحجم</string>
+
+    <string name="action_cut_ringtone">قص نغمة الرنين</string>
+    <string name="action_change_cover">تغيير غلاف الألبوم</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_edit_tags">تعديل العلامات</string>
+    <string name="action_play_next">تشغيل التالي</string>
+    <string name="action_play_prev">تشغيل السابق</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_details">التفاصيل</string>
+    <string name="action_go_to_album">الانتقال للألبوم</string>
+    <string name="action_go_to_artist">الانتقال للفنان</string>
+    <string name="action_youtube">بحث في يوتيوب</string>
+    <string name="action_hide">إخفاء الأغنية</string>
+    <string name="add_to_playlist">إضافة لقائمة التشغيل</string>
+    <string name="playlist_add">إضافة للقائمة</string>
+    <string name="playlist_clear">تفريغ القائمة</string>
+    <string name="playlist_create">إنشاء قائمة</string>
+    <string name="playlist_delete">حذف القائمة</string>
+    <string name="playlist_edit">تعديل القائمة</string>
+    <string name="playlist_play_all">تشغيل الكل</string>
+    <string name="playlist_remove">إزالة من القائمة</string>
+    <string name="playlist_rename">إعادة تسمية القائمة</string>
+    <string name="playlist_shuffle">تشغيل عشوائي</string>
+    <string name="set_as_ringtone">تعيين كنغمة رنين</string>
+    <string name="set_ringtone">ضبط النغمة</string>
+    <string name="share">مشاركة</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="share_text">جرب تطبيق مشغل موسيقى MP3 الرائع!</string>
+    <string name="rate_us">تقييم التطبيق</string>
+    <string name="check_updates">تحديث التطبيق</string>
+    <string name="exit">خروج</string>
+    <string name="exit_app">خروج من التطبيق</string>
+    <string name="my_playlist">قائمتي</string>
+    <string name="create_playlist">إنشاء قائمة تشغيل</string>
+    <string name="added_to_favorites">تمت الإضافة للمفضلة</string>
+    <string name="selected_count">تم تحديد %d</string>
+    <string name="favorite">المفضلة</string>
+    <string name="song_info">معلومات الأغنية</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="apply">تطبيق</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="search_hint">بحث عن أغنية…</string>
+    <string name="setting_language">اختيار اللغة</string>
+    <string name="setting_fade">تداخل الأصوات</string>
+    <string name="setting_shake">الهز لتبديل الأغنية</string>
+    <string name="setting_change_theme">تغيير المظهر</string>
+    <string name="setting_scan_storage">تحديث المكتبة</string>
+    <string name="setting_audio_effects">تأثيرات الصوت</string>
+    <string name="setting_app_lock">قفل التطبيق</string>
+    <string name="setting_filter_short">تصفية الملفات القصيرة</string>
+    <string name="setting_header_general">إعدادات عامة</string>
+    <string name="header_files">الملفات والتخزين</string>
+    <string name="header_audio">الصوت والتشغيل</string>
+    <string name="header_appearance">المظهر واللغة</string>
+    <string name="header_support">أدوات متقدمة ودعم</string>
+    <string name="why_songs_hidden">لماذا بعض الأغاني مخفية؟</string>
+    <string name="delete_duplicates">البحث عن أغاني مكررة</string>
+    <string name="manage_trash">سلة المحذوفات</string>
+    <string name="pause_on_loss">إيقاف عند فصل السماعة</string>
+    <string name="bt_block">منع البلوتوث</string>
+    <string name="album_grid">شبكة الألبومات</string>
+    <string name="lock_screen">شاشة القفل</string>
+    <string name="remove_ads">إزالة الإعلانات</string>
+    <string name="update_app">تحديث التطبيق</string>
+    <string name="backup">نسخة احتياطية</string>
+    <string name="restore">استعادة</string>
+    <string name="manage_tabs">إدارة التبويبات</string>
+
+    <string name="app_locked">التطبيق مقفل</string>
+    <string name="welcome_back">مرحباً بعودتك</string>
+    <string name="enter_pin_to_continue">أدخل الرمز للمتابعة</string>
+    <string name="use_biometric_desc">يرجى استخدام البصمة للدخول</string>
+    <string name="biometric_fail">فشل التحقق</string>
+    <string name="incorrect_pin">الرمز غير صحيح</string>
+    <string name="btn_biometric_retry">إعادة المحاولة</string>
+
+    <string name="developer">المطور</string>
+    <string name="developer_name">محمد</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="version">الإصدار</string>
+    <string name="support">الدعم الفني</string>
+    <string name="support_contact">جهة اتصال الدعم</string>
+    <string name="support_email_subject">مشكلة أو اقتراح - مشغل موسيقى MP3</string>
+    <string name="support_email_body">\n\n\n--- معلومات الجهاز ---\n</string>
+
+    <string name="no_music_found">لم يتم العثور على موسيقى</string>
+    <string name="no_permission_msg">إذن التخزين مطلوب</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="song_deleted">تم الحذف بنجاح</string>
+    <string name="delete">حذف</string>
+    <string name="ringtone_set">تم ضبط النغمة بنجاح</string>
+    <string name="error_setting_ringtone">خطأ في ضبط النغمة</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="renamed_to">إعادة التسمية لـ %s</string>
+    <string name="trash_empty">السلة فارغة</string>
+    <string name="backup_saved">تم حفظ النسخة الاحتياطية!</string>
+    <string name="settings_restored">تم استعادة الإعدادات!</string>
+    <string name="pro_features">تم تفعيل مميزات برو!</string>
+
+    <string name="confirm_delete">حذف "%s"؟</string>
+    <string name="confirm_delete_duplicates">حذف المكرر نهائياً؟</string>
+    <string name="confirm_clear_playlist">تفريغ القائمة؟</string>
+    <string name="confirm_delete_playlist">حذف القائمة؟</string>
+    <string name="confirm_exit">خروج من التطبيق؟</string>
+    <string name="confirm_stop_download">إيقاف التحميل؟</string>
+
+    <string name="sleep_timer">مؤقت النوم</string>
+    <string name="sleep_timer_set">تم الضبط لـ %d دقيقة</string>
+    <string name="sleep_timer_msg">سيغلق بعد %d دقيقة</string>
+
+    <string name="mb_unit">ميجا</string>
+    <string name="sec_unit">ثانية</string>
+
+    <string name="no_folders">لا توجد مجلدات</string>
+    <string name="no_albums">لا توجد ألبومات</string>
+    <string name="no_artists">لا يوجد فنانين</string>
+    <string name="no_favorites">المفضلة فارغة</string>
+
+    <string name="skin_selector_title">سمات المشغل</string>
+    <string name="cutter_title">قاص نغمات الرنين</string>
+    <string name="save_and_set_ringtone">حفظ وضبط النغمة</string>
+
+    <string name="skin_0">النيون الدائري</string>
+    <string name="skin_1">فينيل ريترو</string>
+    <string name="skin_2">فن الماندالا</string>
+    <string name="skin_3">الزجاج المربع</string>
+    <string name="skin_4">المنظر العريض</string>
+    <string name="skin_5">التمويه الكامل</string>
+    <string name="skin_6">التصميم البسيط</string>
+    <string name="skin_7">طيف المتفاعل</string>
+    <string name="skin_8">القوس العلوي</string>
+    <string name="skin_9">كبسولة الزجاج</string>
+    <string name="skin_10">فن الملصقات</string>
+    <string name="skin_11">التقدم الجانبي</string>
+
+    <string name="aspect_fit">احتواء</string>
+    <string name="aspect_stretch">تمديد</string>
+    <string name="aspect_zoom">تكبير</string>
+
+    <string name="control_play">تشغيل</string>
+    <string name="control_pause">إيقاف</string>
+    <string name="control_stop">إنهاء</string>
+    <string name="control_next">التالي</string>
+    <string name="control_previous">السابق</string>
+    <string name="control_rotate">تدوير</string>
+    <string name="control_flip">قلب</string>
+    <string name="control_cast">بث</string>
+    <string name="control_download">تحميل</string>
+    <string name="control_lock">قفل</string>
+    <string name="control_more">المزيد</string>
+    <string name="control_rewind">إرجاع</string>
+    <string name="control_forward">تقديم</string>
+    <string name="control_pip">نافذة عائمة</string>
+    <string name="control_unlock">إلغاء القفل</string>
+    <string name="control_repeat">تكرار</string>
+    <string name="control_shuffle">عشوائي</string>
+    <string name="control_share">مشاركة</string>
+    <string name="speed_normal">سرعة عادية</string>
+    <string name="buffering">جاري التحميل الاحتياطي…</string>
+
+    <string name="about_copyright">حقوق الطبع والنشر 2024</string>
+    <string name="about_developer">تطوير محمد</string>
+    <string name="about_licenses">التراخيص</string>
+    <string name="about_privacy">سياسة الخصوصية</string>
+    <string name="about_terms">شروط الخدمة</string>
+    <string name="about_version">الإصدار 1.0.0</string>
+    <string name="about_website">الموقع الإلكتروني</string>
+
+    <string name="info_title">العنوان</string>
+    <string name="info_duration">المدة</string>
+    <string name="info_size">الحجم</string>
+    <string name="info_resolution">الدقة</string>
+    <string name="info_format"> الصيغة</string>
+    <string name="info_date_added">تاريخ الإضافة</string>
+    <string name="info_path">المسار</string>
+    <string name="info_audio_codec">ترميز الصوت</string>
+    <string name="info_bitrate">معدل البت</string>
+    <string name="info_frame_rate">معدل الإطارات</string>
+    <string name="info_video_codec">ترميز الفيديو</string>
+
+    <string name="accessibility_brightness_level">مستوى السطوع</string>
+    <string name="accessibility_current_time">الوقت الحالي</string>
+    <string name="accessibility_play_pause">تشغيل/إيقاف</string>
+    <string name="accessibility_seek_bar">شريط التقدم</string>
+    <string name="accessibility_total_time">الوقت الإجمالي</string>
+    <string name="accessibility_volume_level">مستوى الصوت</string>
+
+    <string name="count_album">ألبوم واحد</string>
+    <string name="count_albums">%d ألبومات</string>
+    <string name="count_artist">فنان واحد</string>
+    <string name="count_artists">%d فنانين</string>
+    <string name="count_playlist">قائمة واحدة</string>
+    <string name="count_playlists">%d قوائم</string>
+    <string name="count_song">أغنية واحدة</string>
+    <string name="count_songs">%d أغاني</string>
+
+    <string name="time_hours">ساعات</string>
+    <string name="time_hours_minutes">%d س %d د</string>
+    <string name="time_minutes">دقائق</string>
+    <string name="time_minutes_seconds">%d د %d ث</string>
+    <string name="time_seconds">ثواني</string>
+
+    <string name="error_file_corrupted">الملف تالف</string>
+    <string name="error_network">خطأ في الشبكة</string>
+    <string name="error_playback">خطأ في التشغيل</string>
+    <string name="error_timeout">انتهت مهلة الانتظار</string>
+    <string name="error_unknown">خطأ غير معروف</string>
+    <string name="error_unsupported_format">صيغة غير مدعومة</string>
+
+    <string name="gesture_brightness">السطوع</string>
+    <string name="gesture_double_tap">نقر مزدوج</string>
+    <string name="gesture_lock">قفل</string>
+    <string name="gesture_pinch">تكبير</string>
+    <string name="gesture_seek">تقديم/تأخير</string>
+    <string name="gesture_swipe">سحب</string>
+    <string name="gesture_volume">الصوت</string>
+
+    <string name="view_compact">عرض مضغوط</string>
+    <string name="view_grid">عرض شبكي</string>
+    <string name="view_large">عرض كبير</string>
+    <string name="view_list">عرض قائمة</string>
+
+    <string name="search_clear">مسح البحث</string>
+    <string name="search_clear_history">مسح السجل</string>
+    <string name="search_filters">الفلاتر</string>
+    <string name="search_recent">البحث الأخير</string>
+
+    <string name="update_available">تحديث متوفر</string>
+    <string name="update_later">لاحقاً</string>
+    <string name="update_message">نسخة جديدة متوفرة</string>
+    <string name="update_now">تحديث الآن</string>
+    <string name="update_size">الحجم: %s</string>
+    <string name="update_version">الإصدار: %s</string>
+    <string name="update_whats_new">ما الجديد</string>
+
+    <string name="dialog_button_cancel">إلغاء</string>
+    <string name="dialog_button_ok">موافق</string>
+    <string name="dialog_button_save">حفظ</string>
+    <string name="dialog_button_create">إنشاء</string>
+    <string name="dialog_button_delete">حذف</string>
+    <string name="dialog_hint_playlist_name">اسم القائمة</string>
+    <string name="dialog_message_delete">هل أنت متأكد؟</string>
+    <string name="dialog_message_download">بدأ التحميل</string>
+    <string name="dialog_title_add_playlist">إضافة للقائمة</string>
+    <string name="dialog_title_delete">حذف</string>
+    <string name="dialog_title_download">تحميل</string>
+    <string name="dialog_title_new_playlist">قائمة جديدة</string>
+    <string name="dialog_title_rename">إعادة تسمية</string>
+    <string name="dialog_title_settings">الإعدادات</string>
+    <string name="dialog_title_share">مشاركة</string>
+
+    <string name="setting_auto_play">تشغيل تلقائي</string>
+    <string name="setting_background_play">تشغيل في الخلفية</string>
+    <string name="setting_dark_mode">الوضع الداكن</string>
+    <string name="setting_gesture_control">التحكم بالإيماءات</string>
+    <string name="setting_hardware_acceleration">تسريع العتاد</string>
+    <string name="setting_hide_controls">إخفاء الأزرار</string>
+    <string name="setting_remember_position">تذكر الموضع</string>
+
+    <string name="unknown_title">عنوان غير معروف</string>
+    <string name="unknown_artist">فنان غير معروف</string>
+    <string name="unknown_album">ألبوم غير معروف</string>
+    <string name="unknown_date">تاريخ غير معروف</string>
+    <string name="unknown_duration">00:00</string>
+    <string name="unknown_folder">مجلد غير معروف</string>
+    <string name="unknown_genre">تصنيف غير معروف</string>
+
+    <string name="lang_ar">العربية</string>
+    <string name="lang_auto">تلقائي</string>
+    <string name="lang_en">الإنجليزية</string>
+    <string name="lang_fr">الفرنسية</string>
+    <string name="lang_ur">الأوردو</string>
+    <string name="lang_de">الألمانية</string>
+    <string name="lang_es">الإسبانية</string>
+    <string name="lang_fa">الفارسية</string>
+    <string name="lang_hi">الهندية</string>
+    <string name="lang_pt">البرتغالية</string>
+    <string name="lang_ru">الروسية</string>
+    <string name="lang_tr">التركية</string>
+    <string name="lang_zh">الصينية</string>
+
+    <string name="msg_retry">إعادة محاولة</string>
+    <string name="msg_try_again">حاول ثانية</string>
+    <string name="network_mobile">البيانات</string>
+    <string name="network_offline">غير متصل</string>
+    <string name="network_warning">تنبيه شبكة</string>
+    <string name="network_wifi">واي فاي</string>
+    <string name="permission_denied">تم الرفض</string>
+    <string name="permission_granted">تم المنح</string>
+    <string name="permission_notification_message">السماح بالإشعارات</string>
+    <string name="permission_notification_title">الإشعارات</string>
+    <string name="permission_settings">الإعدادات</string>
+    <string name="permission_storage_message">الوصول للتخزين</string>
+    <string name="permission_storage_title">إذن التخزين</string>
+    <string name="filter_duration">فلترة المدة</string>
+    <string name="more_than_30">أكثر من 30ث</string>
+    <string name="more_than_60">أكثر من 60ث</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="premium_themes">سمات برو</string>
+</resources>

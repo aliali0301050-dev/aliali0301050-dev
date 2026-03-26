@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/tab_songs" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/tab_playlists" />
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@android:drawable/stat_notify_sync"
+                android:title="@string/check_updates" />
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="@string/language" />
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/theme_customization" />
+            <item
+                android:id="@+id/nav_equalizer"
+                android:icon="@android:drawable/ic_lock_silent_mode_off"
+                android:title="@string/equalizer" />
+        </menu>
+    </item>
+
+    <item android:title="@string/share">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/share_app" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/exit_app" />
+        </menu>
+    </item>
+
+</menu>

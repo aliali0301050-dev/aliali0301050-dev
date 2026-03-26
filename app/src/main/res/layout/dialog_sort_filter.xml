@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#151525"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ترتيب حسب"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="العنوان"
+                android:textColor="@color/white"
+                android:buttonTint="?colorAccent" />
+
+            <RadioButton
+                android:id="@+id/rbFilename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اسم الملف"
+                android:textColor="@color/white"
+                android:buttonTint="?colorAccent" />
+
+            <RadioButton
+                android:id="@+id/rbArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فنانين"
+                android:textColor="@color/white"
+                android:buttonTint="?colorAccent" />
+
+            <RadioButton
+                android:id="@+id/rbDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المدة"
+                android:textColor="@color/white"
+                android:buttonTint="?colorAccent" />
+
+            <RadioButton
+                android:id="@+id/rbDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تم إضافة التاريخ"
+                android:textColor="@color/white"
+                android:buttonTint="?colorAccent" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbAscending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تصاعدي"
+            android:textColor="@color/white"
+            android:buttonTint="?colorAccent"
+            android:layout_marginTop="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#30FFFFFF"
+            android:layout_marginVertical="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="إخفاء الأغاني القصيرة"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvMinDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 ثانية"
+                android:textColor="?colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/sliderDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="0"
+            android:valueTo="60"
+            android:stepSize="5"
+            app:thumbColor="?colorAccent"
+            app:trackColorActive="?colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تطبيق"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

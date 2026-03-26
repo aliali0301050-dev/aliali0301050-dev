@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">مشغل نغمات برو</string>
+    <string name="tab_all_songs">الأغاني</string>
+    <string name="tab_playlists">المفضلات</string>
+    <string name="tab_folders">المجلدات</string>
+    <string name="tab_genres">الأنواع</string>
+    <string name="tab_albums">الألبومات</string>
+    <string name="tab_artists">الفنانين</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="tab_books">الكتب</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="setting_language">اختيار اللغة</string>
+    <string name="setting_fade">تلاشي الصوت</string>
+    <string name="setting_shake">الهز للتبديل</string>
+    <string name="setting_change_theme">تغيير المظهر</string>
+    <string name="setting_scan_storage">تحديث المكتبة</string>
+    <string name="setting_audio_effects">الموازن</string>
+    <string name="setting_app_lock">قفل التطبيق</string>
+    <string name="setting_album_art_style">نمط غلاف الألبوم</string>
+    <string name="setting_bt_block">حظر البلوتوث</string>
+    <string name="setting_filter_short">تصفية الملفات القصيرة</string>
+    <string name="setting_header_general">إعدادات عامة</string>
+    <string name="setting_audio_quality">جودة الصوت</string>
+    <string name="setting_blacklist">المجلدات المستبعدة</string>
+    <string name="setting_trash_bin">سلة المحذوفات</string>
+
+    <string name="app_locked">التطبيق مقفل</string>
+    <string name="welcome_back">مرحباً بك مجدداً</string>
+    <string name="enter_pin_to_continue">أدخل الرمز للمتابعة</string>
+    <string name="use_biometric_desc">يرجى استخدام البصمة للدخول</string>
+    <string name="btn_biometric_retry">اضغط هنا للبصمة</string>
+    <string name="biometric_fail">فشل التحقق</string>
+    <string name="biometric_not_available">البصمة غير متوفرة في جهازك</string>
+    <string name="lock_icon">أيقونة القفل</string>
+    <string name="use_fingerprint">استخدام البصمة</string>
+    <string name="incorrect_pin">الرمز غير صحيح</string>
+    <string name="forgot_pin">نسيت الرمز؟</string>
+
+    <string name="play">تشغيل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="next_track">التالي</string>
+    <string name="prev_track">السابق</string>
+    <string name="shuffle">تبديل عشوائي</string>
+    <string name="repeat_all">تكرار الكل</string>
+    <string name="repeat_one">تكرار الحالي</string>
+    <string name="equalizer">الموازن</string>
+    <string name="playback_speed">سرعة التشغيل</string>
+    <string name="now_playing">يعمل الآن</string>
+
+    <string name="shake_switched">تم التبديل عبر الهز</string>
+    <string name="sleep_timer">مؤقت النوم</string>
+    <string name="sleep_timer_off">إيقاف المؤقت</string>
+    <string name="sleep_timer_set">تم ضبط المؤقت لـ %d دقيقة</string>
+    <string name="sleep_timer_msg">سيغلق التطبيق بعد %d دقيقة</string>
+    <string name="playback_speed_msg">السرعة الآن: %s</string>
+
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="save">حفظ</string>
+    <string name="edit">تعديل</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="clear">مسح</string>
+    <string name="share">مشاركة</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="share_msg">جرب تطبيق Ringtone Player!</string>
+    <string name="confirm_delete">هل أنت متأكد من حذف \"%s\"؟</string>
+    <string name="song_deleted">تم الحذف بنجاح</string>
+    <string name="error_deleting">خطأ أثناء الحذف</string>
+    <string name="loading">جاري التحميل...</string>
+
+    <string name="theme_customization">المظهر</string>
+    <string name="theme_mode">وضع المظهر</string>
+    <string name="light_mode">الوضع الفاتح</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="blue_mode">الوضع الأزرق</string>
+    <string name="auto_mode">تلقائي (النظام)</string>
+    <string name="primary_color">اللون الأساسي</string>
+    <string name="accent_color">لون التميز</string>
+    <string name="apply_changes">تطبيق التغييرات</string>
+
+    <string name="no_music_found">لم يتم العثور على نغمات</string>
+    <string name="unknown_artist">فنان مجهول</string>
+    <string name="unknown_album">ألبوم مجهول</string>
+    <string name="unknown_title">عنوان مجهول</string>
+    <string name="permission_required">الصلاحية مطلوبة</string>
+
+    <string name="my_playlist">قائمتي</string>
+    <string name="create_playlist">إنشاء قائمة</string>
+    <string name="add_to_playlist">إضافة للقائمة</string>
+    <string name="added_to_favorites">أضيف للمفضلة</string>
+    <string name="removed_from_favorites">حذف من المفضلة</string>
+    <string name="favorite_songs">المفضلات</string>
+    <string name="added_to_favorites_toast">تمت الإضافة للمفضلات</string>
+    <string name="removed_from_favorites_toast">تم الحذف من المفضلات</string>
+
+    <string name="sort_by">فرز حسب</string>
+    <string name="sort_name">الاسم</string>
+    <string name="sort_date">التاريخ</string>
+    <string name="sort_artist">الفنان</string>
+
+    <string name="set_as">ضبط كـ...</string>
+    <string name="set_ringtone">ضبط كنغمة رنين</string>
+    <string name="set_notification">ضبط كإشعار</string>
+    <string name="set_alarm">ضبط كمنبه</string>
+    <string name="set_as_ringtone">ضبط كنغمة رنين</string>
+    <string name="ringtone_set">تم تعيين النغمة بنجاح</string>
+    <string name="error_setting_ringtone">خطأ في تعيين النغمة</string>
+
+    <string name="app_version">الإصدار: %s</string>
+    <string name="update_now">تحديث الآن</string>
+    <string name="exit">خروج</string>
+    <string name="exit_app">خروج</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="check_updates">التأكد من التحديثات</string>
+    <string name="app_is_up_to_date">أنت تستخدم أحدث نسخة</string>
+    <string name="rate_us">تقييم التطبيق</string>
+    <string name="support_contact">الدعم الفني</string>
+    <string name="search_hint">البحث عن أغنية، ألبوم...</string>
+    <string name="song_info">بيانات النغمة</string>
+
+    <string name="action_play_next">تشغيل التالي</string>
+    <string name="action_edit_tags">تعديل البيانات</string>
+    <string name="action_go_to_album">الانتقال للألبوم</string>
+    <string name="action_go_to_artist">الانتقال للفنان</string>
+    <string name="delete_song">حذف النغمة</string>
+    <string name="action_details">التفاصيل</string>
+</resources>

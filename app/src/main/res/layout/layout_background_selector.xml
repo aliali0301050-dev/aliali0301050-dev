@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E14"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:paddingHorizontal="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="غير الخلفية"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_next"
+                android:rotation="180"
+                app:tint="@color/white" />
+        </RelativeLayout>
+
+        <!-- 1. مزج لونين -->
+        <include layout="@layout/section_bg_header" android:id="@+id/sectionGradients" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGradients"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clipToPadding="false"
+            android:paddingHorizontal="12dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <!-- 2. لون واحد -->
+        <include layout="@layout/section_bg_header" android:id="@+id/sectionColors" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvColors"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clipToPadding="false"
+            android:paddingHorizontal="12dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <!-- 3. الطبيعة -->
+        <include layout="@layout/section_bg_header" android:id="@+id/sectionNature" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNature"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clipToPadding="false"
+            android:paddingHorizontal="12dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <!-- 4. من صورتك -->
+        <include layout="@layout/section_bg_header" android:id="@+id/sectionGallery" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGallery"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clipToPadding="false"
+            android:paddingHorizontal="12dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

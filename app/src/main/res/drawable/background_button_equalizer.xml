@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="100" android:exitFadeDuration="100">
+    <!-- Pressed State: Inset -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#FF000000" />
+                </shape>
+            </item>
+            <item android:left="2dp" android:top="2dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#0DFFFFFF" />
+                </shape>
+            </item>
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#1A1A1A" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Default State: Outset -->
+    <item>
+        <layer-list>
+            <!-- Shadow Dark -->
+            <item android:bottom="0dp" android:left="3dp" android:right="0dp" android:top="3dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#FF000000" />
+                </shape>
+            </item>
+            <!-- Shadow Light -->
+            <item android:bottom="3dp" android:left="0dp" android:right="3dp" android:top="0dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#1AFFFFFF" />
+                </shape>
+            </item>
+            <!-- Button Face -->
+            <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="12dp" />
+                    <solid android:color="#222222" />
+                    <stroke android:width="1dp" android:color="#0DFFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvSettingsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            android:text="@string/settings"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- القسم الأول: الملفات والتخزين -->
+        <TextView android:id="@+id/headerFiles" style="@style/SettingsHeader" android:text="@string/header_files" />
+        <com.google.android.material.card.MaterialCardView style="@style/SettingsCard">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/btnWhySongsHidden" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i1" style="@style/SettingsIcon" android:src="@drawable/ic_info" />
+                    <TextView style="@style/SettingsText" android:text="@string/why_songs_hidden" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnDeleteDuplicates" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i2" style="@style/SettingsIcon" android:src="@drawable/ic_search" />
+                    <TextView style="@style/SettingsText" android:text="@string/delete_duplicates" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnScanStorage" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i3" style="@style/SettingsIcon" android:src="@drawable/ic_music_note" />
+                    <TextView style="@style/SettingsText" android:text="@string/setting_scan_storage" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnManageTrash" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iTrash" style="@style/SettingsIcon" android:src="@drawable/ic_close" />
+                    <TextView style="@style/SettingsText" android:text="@string/manage_trash" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnFilterShort" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i5" style="@style/SettingsIcon" android:src="@drawable/ic_sleep" />
+                    <TextView style="@style/SettingsText" android:text="@string/setting_filter_short" android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- القسم الثاني: الصوت والتشغيل -->
+        <TextView android:id="@+id/headerAudio" style="@style/SettingsHeader" android:text="@string/header_audio" />
+        <com.google.android.material.card.MaterialCardView style="@style/SettingsCard">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/btnSleepTimer" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i7" style="@style/SettingsIcon" android:src="@drawable/ic_sleep" />
+                    <TextView style="@style/SettingsText" android:text="@string/sleep_timer" android:layout_weight="1" />
+                </LinearLayout>
+                <RelativeLayout style="@style/SettingsItem">
+                    <ImageView android:id="@+id/iPauseLoss" style="@style/SettingsIcon" android:src="@drawable/ic_pause" android:layout_alignParentStart="true" android:layout_centerVertical="true" />
+                    <TextView style="@style/SettingsText" android:text="@string/pause_on_loss" android:layout_toEndOf="@id/iPauseLoss" android:layout_toStartOf="@+id/switchPauseOnAudioLoss" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchPauseOnAudioLoss" style="@style/SettingsSwitch" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout style="@style/SettingsItem">
+                    <ImageView android:id="@+id/i8" style="@style/SettingsIcon" android:src="@drawable/ic_fade" android:layout_alignParentStart="true" android:layout_centerVertical="true" />
+                    <TextView style="@style/SettingsText" android:text="@string/setting_fade" android:layout_toEndOf="@id/i8" android:layout_toStartOf="@+id/switchFade" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchFade" style="@style/SettingsSwitch" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout style="@style/SettingsItem">
+                    <ImageView android:id="@+id/iBtBlock" style="@style/SettingsIcon" android:src="@drawable/ic_bluetooth_disabled" android:layout_alignParentStart="true" android:layout_centerVertical="true" />
+                    <TextView style="@style/SettingsText" android:text="@string/bt_block" android:layout_toEndOf="@id/iBtBlock" android:layout_toStartOf="@+id/switchBtBlock" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchBtBlock" style="@style/SettingsSwitch" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- القسم الثالث: المظهر واللغة -->
+        <TextView android:id="@+id/headerAppearance" style="@style/SettingsHeader" android:text="@string/header_appearance" />
+        <com.google.android.material.card.MaterialCardView style="@style/SettingsCard">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/btnChangeTheme" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iTheme" style="@style/SettingsIcon" android:src="@drawable/ic_palette" />
+                    <TextView style="@style/SettingsText" android:text="@string/setting_change_theme" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnLanguage" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i11" style="@style/SettingsIcon" android:src="@android:drawable/ic_menu_sort_alphabetically" />
+                    <TextView style="@style/SettingsText" android:text="@string/language" android:layout_weight="1" />
+                </LinearLayout>
+                <RelativeLayout style="@style/SettingsItem">
+                    <ImageView android:id="@+id/iAlbumGrid" style="@style/SettingsIcon" android:src="@drawable/ic_music_note" android:layout_alignParentStart="true" android:layout_centerVertical="true" />
+                    <TextView style="@style/SettingsText" android:text="@string/album_grid" android:layout_toEndOf="@id/iAlbumGrid" android:layout_toStartOf="@+id/switchAlbumGrid" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchAlbumGrid" style="@style/SettingsSwitch" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout style="@style/SettingsItem">
+                    <ImageView android:id="@+id/i12" style="@style/SettingsIcon" android:src="@android:drawable/ic_lock_lock" android:layout_alignParentStart="true" android:layout_centerVertical="true" />
+                    <TextView style="@style/SettingsText" android:text="@string/lock_screen" android:layout_toEndOf="@id/i12" android:layout_toStartOf="@+id/switchLockScreen" android:layout_centerVertical="true" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switchLockScreen" style="@style/SettingsSwitch" android:layout_alignParentEnd="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- القسم الرابع: متقدم ودعم -->
+        <TextView android:id="@+id/headerSupport" style="@style/SettingsHeader" android:text="@string/header_support" />
+        <com.google.android.material.card.MaterialCardView style="@style/SettingsCard">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <LinearLayout android:id="@+id/btnRemoveAds" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/i13" style="@style/SettingsIcon" android:src="@drawable/ic_auto" />
+                    <TextView style="@style/SettingsText" android:text="@string/remove_ads" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnUpdateApp" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iUpdate" style="@style/SettingsIcon" android:src="@drawable/ic_update" />
+                    <TextView style="@style/SettingsText" android:text="@string/update_app" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnShare" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iShare" style="@style/SettingsIcon" android:src="@drawable/ic_share" />
+                    <TextView style="@style/SettingsText" android:text="@string/share_app" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnSupport" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iSupport" style="@style/SettingsIcon" android:src="@drawable/ic_info" />
+                    <TextView style="@style/SettingsText" android:text="@string/support" android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/btnPrivacyPolicy" style="@style/SettingsItem" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:id="@+id/iPrivacy" style="@style/SettingsIcon" android:src="@drawable/ic_info" />
+                    <TextView style="@style/SettingsText" android:text="@string/privacy_policy" android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- بيانات المطور والإصدار -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="16dp"
+            android:alpha="0.6">
+            <TextView
+                android:id="@+id/tvDeveloperInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/developer"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvVersionInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/btnExit" android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center" android:text="@string/exit" android:textColor="@color/error" android:textStyle="bold" android:background="@drawable/background_glass_capsule" android:backgroundTint="#1AFFFFFF" android:layout_marginVertical="24dp"/>
+
+        <Space android:layout_width="match_parent" android:layout_height="120dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

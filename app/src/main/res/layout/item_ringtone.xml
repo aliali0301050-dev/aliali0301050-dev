@@ -1,0 +1,38 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconRingtone"
+            android:src="@drawable/ic_music_note"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/nameRingtone"
+            android:text="اسم النغمة"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnFavorite"
+            android:src="@drawable/ic_favorite_border"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:src="@drawable/ic_share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

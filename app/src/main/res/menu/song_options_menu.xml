@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_cut_ringtone"
+        android:icon="@drawable/ic_palette"
+        android:title="قص النغمة" />
+    <item
+        android:id="@+id/action_edit_art"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="تغيير الغلاف" />
+    <item
+        android:id="@+id/action_rename"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="إعادة تسمية" />
+    <item
+        android:id="@+id/action_edit_tags"
+        android:icon="@drawable/ic_palette"
+        android:title="تعديل الوسوم" />
+    <group android:id="@+id/group_play">
+        <item
+            android:id="@+id/action_play_next"
+            android:icon="@drawable/ic_next"
+            android:title="التشغيل التالي" />
+        <item
+            android:id="@+id/action_add_to_playlist"
+            android:icon="@drawable/ic_playlist_add"
+            android:title="إضافة إلى قائمة التشغيل" />
+    </group>
+    <item
+        android:id="@+id/action_set_ringtone"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:title="تعيين كنغمة رنين" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="مشاركة" />
+    <item
+        android:id="@+id/action_youtube_search"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="ابحث في يوتيوب" />
+    <item
+        android:id="@+id/action_hide"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="إخفاء الأغاني" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="حذف من الجهاز" />
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7F9"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@android:drawable/stat_sys_upload"
+        android:layout_marginTop="40dp"
+        app:tint="#1976D2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="النسخ الاحتياطي"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#2C3E50"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حافظ على نغماتك وقوائم التشغيل الخاصة بك عبر سحابة التخزين"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="#7F8C8D" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnBackup"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="رفع نسخة احتياطية الآن"
+                android:backgroundTint="#2196F3"
+                app:cornerRadius="10dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnRestore"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="استعادة نسخة سابقة"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:cornerRadius="10dp"
+                android:textColor="#2196F3"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lastBackupStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="آخر مزامنة: لم يتم الرفع بعد"
+        android:textSize="12sp"
+        android:textColor="#95A5A6"/>
+
+</LinearLayout>

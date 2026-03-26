@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#1A1F33"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="10dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Section -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/btnOptionFavorite"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_favorite_border"
+                app:tint="@color/text_white_pure"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+            <ImageButton
+                android:id="@+id/btnOptionInfo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_info"
+                app:tint="@color/text_white_pure"
+                android:layout_toEndOf="@id/btnOptionFavorite"
+                android:layout_centerVertical="true"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/miniArtCard"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:cardCornerRadius="8dp"
+                android:layout_alignParentEnd="true">
+                <ImageView
+                    android:id="@+id/ivMiniArt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_music_note" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/miniArtCard"
+                android:layout_toEndOf="@id/btnOptionInfo"
+                android:layout_marginHorizontal="12dp"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvOptionTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unknown_title"
+                    android:textColor="@color/text_white_pure"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/tvOptionInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_details"
+                    android:textColor="@color/text_white_secondary"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1AFFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- حل مشكلة التمرير: استخدام NestedScrollView وتفعيل التمرير المتداخل -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:overScrollMode="never">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/SongOptionItem"
+                    android:id="@+id/optCutRingtone"
+                    android:text="@string/action_cut_ringtone"
+                    app:icon="@drawable/ic_palette" />
+
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optEditCover" android:text="@string/action_change_cover" app:icon="@android:drawable/ic_menu_gallery" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optRename" android:text="@string/action_rename" app:icon="@android:drawable/ic_menu_edit" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optEditTags" android:text="@string/action_edit_tags" app:icon="@drawable/ic_palette" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optNextPlay" android:text="@string/action_play_next" app:icon="@drawable/ic_next" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optAddToPlaylist" android:text="@string/add_to_playlist" app:icon="@drawable/ic_playlist_add" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optSetRingtone" android:text="@string/set_as_ringtone" app:icon="@android:drawable/ic_lock_silent_mode_off" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optShare" android:text="@string/share" app:icon="@drawable/ic_share" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optYoutube" android:text="@string/action_youtube" app:icon="@android:drawable/ic_menu_slideshow" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optHide" android:text="@string/action_hide" app:icon="@android:drawable/ic_menu_view" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optSleepTimer" android:text="@string/sleep_timer" app:icon="@drawable/ic_timer" />
+                <com.google.android.material.button.MaterialButton style="@style/SongOptionItem" android:id="@+id/optDelete" android:text="@string/delete" android:textColor="#FF5252" app:icon="@android:drawable/ic_menu_delete" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_deep_navy">
+
+    <!-- Background Layer -->
+    <ImageView
+        android:id="@+id/ivCustomBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:elevation="0dp"
+        app:liftOnScroll="false">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            app:tabIndicatorColor="#FF1744"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/text_white_secondary"
+            app:tabMode="scrollable"
+            app:tabGravity="fill"
+            android:layoutDirection="rtl"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:id="@+id/playAllLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:background="@drawable/background_glass_capsule"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvPlayCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="#FF1744" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shuffleLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/background_glass_capsule"
+                android:backgroundTint="#26FFFFFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/playAllLayout"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shuffle"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/ic_shuffle"
+                    app:tint="@color/white" />
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/searchBarLayout"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#26FFFFFF"
+                app:cardCornerRadius="19dp"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/shuffleLayout"
+                app:layout_constraintStart_toEndOf="@id/btnSort"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivSearchIcon"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_search"
+                        app:tint="@color/text_white_secondary" />
+
+                    <EditText
+                        android:id="@+id/etSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toStartOf="@id/ivSearchIcon"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/search_hint"
+                        android:textColorHint="@color/text_white_secondary"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text"
+                        android:gravity="end|center_vertical"
+                        android:paddingEnd="6dp" />
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <ImageButton
+                android:id="@+id/btnSort"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/secondaryToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#E60A0E14"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/tvSelectionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Mini Player: Floating Glass Capsule (FIXED OVERLAP & RTL) -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/miniPlayerCard"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#E6161B22"
+        app:cardCornerRadius="34dp"
+        app:cardElevation="12dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#26FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="6dp"
+            android:layoutDirection="ltr">
+
+            <!-- 1. Image (Always Left) -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_vinyl_mini"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_music_note"
+                app:shapeAppearanceOverlay="@style/circleImageView" />
+
+            <!-- 2. Text (Always Middle) -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="12dp"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/tvMiniTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="@string/unknown_title"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMiniArtist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.7"
+                    android:singleLine="true"
+                    android:text="@string/unknown_artist"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <!-- 3. Controls (Always Right) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btnPrevious"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_previous"
+                    app:tint="@color/white" />
+
+                <ImageButton
+                    android:id="@+id/btnPlayPause"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:background="@drawable/circle_background"
+                    android:backgroundTint="#FF1744"
+                    android:padding="12dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+                <ImageButton
+                    android:id="@+id/btnNext"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_next"
+                    app:tint="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Progress Bar at bottom of capsule -->
+        <ProgressBar
+            android:id="@+id/seekBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginHorizontal="40dp"
+            android:progress="0"
+            android:progressTint="#FF1744"
+            android:progressBackgroundTint="#1AFFFFFF" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <FrameLayout
+        android:id="@+id/fullPlayerSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <include
+            android:id="@+id/playerLayout"
+            layout="@layout/activity_player" />
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

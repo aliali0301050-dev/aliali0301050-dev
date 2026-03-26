@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Музыкальный проигрыватель MP3</string>
+
+    <string name="tab_songs">Песни</string>
+    <string name="tab_playlists">Плейлисты</string>
+    <string name="tab_folders">Папки</string>
+    <string name="tab_artists">Артисты</string>
+    <string name="tab_albums">Альбомы</string>
+    <string name="tab_genres">Жанры</string>
+    <string name="tab_books">Аудиокниги</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="tab_all_songs">Все песни</string>
+    <string name="tab_downloads">Загрузки</string>
+    <string name="tab_favorites">Избранное</string>
+    <string name="tab_recent">Последние</string>
+
+    <string name="select_identity">Выберите тему</string>
+    <string name="theme_midnight_gold">Полуночное золото</string>
+    <string name="theme_royal_violet">Королевский фиолетовый</string>
+    <string name="theme_ocean_cyan">Океанский циан</string>
+    <string name="theme_cyber_red">Кибер-красный</string>
+
+    <string name="theme_cyber_rose">Кибер-роза (Неон)</string>
+    <string name="theme_electric_violet">Электрический фиолетовый</string>
+    <string name="theme_ice_cyan">Ледяной циан</string>
+    <string name="theme_toxic_lime">Токсичный лайм</string>
+    <string name="theme_sunset_orange">Закатный оранжевый</string>
+    <string name="theme_midnight_eclipse">Полуночное затмение</string>
+    <string name="theme_customization">Настройка темы</string>
+    <string name="theme_black">Королевский черный</string>
+    <string name="theme_dark">Темная</string>
+    <string name="theme_dynamic">Динамическая</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_system">Системная</string>
+
+    <string name="change_background">Изменить фон</string>
+    <string name="bg_category_gradient">Градиенты [%d]</string>
+    <string name="bg_category_solid">Сплошные цвета [%d]</string>
+    <string name="bg_category_nature">Природа [%d]</string>
+    <string name="bg_category_custom">Ваши фото [%d]</string>
+    <string name="bg_swipe_hint">Проведите для просмотра</string>
+    <string name="pick_from_gallery">Выбрать из галереи</string>
+    <string name="background_updated">Фон успешно обновлен</string>
+
+    <string name="play">Играть</string>
+    <string name="play_all">Играть все</string>
+    <string name="pause">Пауза</string>
+    <string name="shuffle">Случайно</string>
+    <string name="shuffle_all">Перемешать все</string>
+    <string name="lyrics">Текст песни</string>
+    <string name="now_playing">Сейчас играет</string>
+    <string name="next_track">Следующий трек</string>
+    <string name="prev_track">Предыдущий трек</string>
+    <string name="repeat_all">Повторять все</string>
+    <string name="repeat_one">Повторять один</string>
+    <string name="playback_speed">Скорость воспроизведения</string>
+    <string name="playback_speed_msg">Скорость: %s</string>
+    <string name="equalizer">Эквалайзер</string>
+    <string name="off">Выкл</string>
+
+    <string name="play_format">Играть (%1$d/%2$d)</string>
+    <string name="play_count_format">Играть (%d)</string>
+    <string name="track_index_format">#%1$d/%2$d</string>
+    <string name="volume_percent_format">%d%%</string>
+    <string name="song_count_format">%d песен</string>
+
+    <string name="sort">Сортировка</string>
+    <string name="sort_name">Имя</string>
+    <string name="sort_date">Дата</string>
+    <string name="sort_artist">Имя исполнителя</string>
+    <string name="sort_album">Альбом</string>
+    <string name="sort_ascending">По возрастанию</string>
+    <string name="sort_descending">По убыванию</string>
+    <string name="sort_duration">Длительность</string>
+    <string name="sort_size">Размер</string>
+
+    <string name="action_cut_ringtone">Обрезать рингтон</string>
+    <string name="action_change_cover">Изменить обложку</string>
+    <string name="action_rename">Переименовать</string>
+    <string name="action_edit_tags">Изменить теги</string>
+    <string name="action_play_next">Играть следующим</string>
+    <string name="action_play_prev">Играть предыдущим</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="action_details">Подробности</string>
+    <string name="action_go_to_album">Перейти к альбому</string>
+    <string name="action_go_to_artist">Перейти к исполнителю</string>
+    <string name="action_youtube">Искать в YouTube</string>
+    <string name="action_hide">Скрыть песню</string>
+    <string name="add_to_playlist">Добавить в плейлист</string>
+    <string name="playlist_add">Добавить в список</string>
+    <string name="playlist_clear">Очистить список</string>
+    <string name="playlist_create">Создать список</string>
+    <string name="playlist_delete">Удалить список</string>
+    <string name="playlist_edit">Изменить список</string>
+    <string name="playlist_play_all">Играть все</string>
+    <string name="playlist_remove">Удалить из списка</string>
+    <string name="playlist_rename">Переименовать список</string>
+    <string name="playlist_shuffle">Перемешать список</string>
+    <string name="set_as_ringtone">Установить как рингтон</string>
+    <string name="set_ringtone">Задать рингтон</string>
+    <string name="share">Поделиться</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="share_text">Посмотрите это классное приложение для MP3 плеера!</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="check_updates">Обновить приложение</string>
+    <string name="exit">Выход</string>
+    <string name="exit_app">Выйти из приложения</string>
+    <string name="my_playlist">Мой плейлист</string>
+    <string name="create_playlist">Создать плейлист</string>
+    <string name="added_to_favorites">Добавлено в избранное</string>
+    <string name="selected_count">Выбрано %d</string>
+    <string name="favorite">Избранное</string>
+    <string name="song_info">Информация о песне</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="apply">Применить</string>
+
+    <string name="settings">Настройки</string>
+    <string name="language">Язык</string>
+    <string name="search_hint">Поиск песни…</string>
+    <string name="setting_language">Выбрать язык</string>
+    <string name="setting_fade">Перекрестное затухание</string>
+    <string name="setting_shake">Встряхнуть для смены песни</string>
+    <string name="setting_change_theme">Изменить тему</string>
+    <string name="setting_scan_storage">Обновить медиатеку</string>
+    <string name="setting_audio_effects">Звуковые эффекты</string>
+    <string name="setting_app_lock">Блокировка приложения</string>
+    <string name="setting_filter_short">Фильтровать короткие файлы</string>
+    <string name="setting_header_general">Общие настройки</string>
+    <string name="header_files">Файлы и хранилище</string>
+    <string name="header_audio">Звук и воспроизведение</string>
+    <string name="header_appearance">Внешний вид и язык</string>
+    <string name="header_support">Инструменты и поддержка</string>
+    <string name="why_songs_hidden">Почему некоторые песни скрыты?</string>
+    <string name="delete_duplicates">Найти дубликаты</string>
+    <string name="manage_trash">Корзина</string>
+    <string name="pause_on_loss">Остановить при отключении наушников</string>
+    <string name="bt_block">Блокировать Bluetooth</string>
+    <string name="album_grid">Сетка альбомов</string>
+    <string name="lock_screen">Экран блокировки</string>
+    <string name="remove_ads">Удалить рекламу</string>
+    <string name="update_app">Обновить приложение</string>
+    <string name="backup">Резервное копирование</string>
+    <string name="restore">Восстановление</string>
+    <string name="manage_tabs">Управление вкладками</string>
+
+    <string name="app_locked">Приложение заблокировано</string>
+    <string name="welcome_back">С возвращением</string>
+    <string name="enter_pin_to_continue">Введите PIN-код</string>
+    <string name="use_biometric_desc">Используйте отпечаток пальца</string>
+    <string name="biometric_fail">Ошибка проверки</string>
+    <string name="incorrect_pin">Неверный PIN-код</string>
+    <string name="btn_biometric_retry">Повторить</string>
+
+    <string name="developer">Разработчик</string>
+    <string name="developer_name">Мохаммад</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="version">Версия</string>
+    <string name="support">Техническая поддержка</string>
+    <string name="support_contact">Контакт поддержки</string>
+    <string name="support_email_subject">Проблема или предложение - MP3 плеер</string>
+    <string name="support_email_body">\n\n\n--- Информация об устройстве ---\n</string>
+
+    <string name="no_music_found">Музыка не найдена</string>
+    <string name="no_permission_msg">Требуется разрешение на доступ к памяти</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="song_deleted">Успешно удалено</string>
+    <string name="delete">Удалить</string>
+    <string name="ringtone_set">Рингтон успешно установлен</string>
+    <string name="error_setting_ringtone">Ошибка установки рингтона</string>
+    <string name="loading">Загрузка…</string>
+    <string name="renamed_to">Переименовано в %s</string>
+    <string name="trash_empty">Корзина пуста</string>
+    <string name="backup_saved">Резервная копия сохранена!</string>
+    <string name="settings_restored">Настройки восстановлены!</string>
+    <string name="pro_features">Pro-функции активированы!</string>
+
+    <string name="confirm_delete">Вы уверены, что хотите удалить "%s"?</string>
+    <string name="confirm_delete_duplicates">Найти похожие файлы и удалить дубликаты? Продолжить?</string>
+    <string name="confirm_clear_playlist">Очистить список?</string>
+    <string name="confirm_delete_playlist">Удалить список?</string>
+    <string name="confirm_exit">Выйти из приложения?</string>
+    <string name="confirm_stop_download">Остановить загрузку?</string>
+
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="sleep_timer_set">Таймер сна установлен на %d мин</string>
+    <string name="sleep_timer_msg">Приложение закроется через %d мин</string>
+
+    <string name="mb_unit">МБ</string>
+    <string name="sec_unit">сек</string>
+
+    <string name="no_folders">Папки не найдены</string>
+    <string name="no_albums">Альбомы не найдены</string>
+    <string name="no_artists">Исполнители не найдены</string>
+    <string name="no_favorites">Список избранного пуст</string>
+
+    <string name="skin_selector_title">Темы плеера</string>
+    <string name="cutter_title">Обрезка рингтонов</string>
+    <string name="save_and_set_ringtone">Сохранить и установить</string>
+
+    <string name="skin_0">Круговой неон</string>
+    <string name="skin_1">Ретро винил</string>
+    <string name="skin_2">Мандала арт</string>
+    <string name="skin_3">Квадратное стекло</string>
+    <string name="skin_4">Панорамный вид</string>
+    <string name="skin_5">Полное размытие</string>
+    <string name="skin_6">Минималистичный дизайн</string>
+    <string name="skin_7">Спектр визуализатора</string>
+    <string name="skin_8">Верхняя дуга</string>
+    <string name="skin_9">Стеклянная капсула</string>
+    <string name="skin_10">Постер арт</string>
+    <string name="skin_11">Боковой прогресс</string>
+
+    <string name="aspect_fit">Вписать</string>
+    <string name="aspect_stretch">Растянуть</string>
+    <string name="aspect_zoom">Зум</string>
+
+    <string name="control_play">Играть</string>
+    <string name="control_pause">Пауза</string>
+    <string name="control_stop">Стоп</string>
+    <string name="control_next">Следующий</string>
+    <string name="control_previous">Предыдущий</string>
+    <string name="control_rotate">Повернуть</string>
+    <string name="control_flip">Отразить</string>
+    <string name="control_cast">Транслировать</string>
+    <string name="control_download">Скачать</string>
+    <string name="control_lock">Заблокировать</string>
+    <string name="control_more">Еще</string>
+    <string name="control_rewind">Назад</string>
+    <string name="control_forward">Вперед</string>
+    <string name="control_pip">PiP</string>
+    <string name="control_unlock">Разблокировать</string>
+    <string name="control_repeat">Повтор</string>
+    <string name="control_shuffle">Случайно</string>
+    <string name="control_share">Поделиться</string>
+    <string name="speed_normal">Обычная скорость</string>
+    <string name="buffering">Буферизация…</string>
+
+    <string name="about_copyright">Copyright 2024</string>
+    <string name="about_developer">Разработано Мохаммадом</string>
+    <string name="about_licenses">Лицензии</string>
+    <string name="about_privacy">Политика конфиденциальности</string>
+    <string name="about_terms">Условия использования</string>
+    <string name="about_version">Версия 1.0.0</string>
+    <string name="about_website">Веб-сайт</string>
+
+    <string name="info_title">Название</string>
+    <string name="info_duration">Длительность</string>
+    <string name="info_size">Размер</string>
+    <string name="info_resolution">Разрешение</string>
+    <string name="info_format">Формат</string>
+    <string name="info_date_added">Дата добавления</string>
+    <string name="info_path">Путь</string>
+    <string name="info_audio_codec">Аудиокодек</string>
+    <string name="info_bitrate">Битрейт</string>
+    <string name="info_frame_rate">Частота кадров</string>
+    <string name="info_video_codec">Видеокодек</string>
+
+    <string name="accessibility_brightness_level">Уровень яркости</string>
+    <string name="accessibility_current_time">Текущее время</string>
+    <string name="accessibility_play_pause">Играть/Пауза</string>
+    <string name="accessibility_seek_bar">Полоса прокрутки</string>
+    <string name="accessibility_total_time">Общее время</string>
+    <string name="accessibility_volume_level">Уровень громкости</string>
+
+    <string name="count_album">1 Альбом</string>
+    <string name="count_albums">%d Альбомов</string>
+    <string name="count_artist">1 Исполнитель</string>
+    <string name="count_artists">%d Исполнителей</string>
+    <string name="count_playlist">1 Плейлист</string>
+    <string name="count_playlists">%d Плейлистов</string>
+    <string name="count_song">1 Песня</string>
+    <string name="count_songs">%d Песен</string>
+
+    <string name="time_hours">Часы</string>
+    <string name="time_hours_minutes">%d ч %d мин</string>
+    <string name="time_minutes">Минуты</string>
+    <string name="time_minutes_seconds">%d мин %d сек</string>
+    <string name="time_seconds">Секунды</string>
+
+    <string name="error_file_corrupted">Файл поврежден</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_playback">Ошибка воспроизведения</string>
+    <string name="error_timeout">Время ожидания истекло</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="error_unsupported_format">Неподдерживаемый формат</string>
+
+    <string name="gesture_brightness">Яркость</string>
+    <string name="gesture_double_tap">Двойное нажатие</string>
+    <string name="gesture_lock">Заблокировать</string>
+    <string name="gesture_pinch">Масштаб</string>
+    <string name="gesture_seek">Поиск</string>
+    <string name="gesture_swipe">Смахнуть</string>
+    <string name="gesture_volume">Громкость</string>
+
+    <string name="view_compact">Компактный вид</string>
+    <string name="view_grid">Сетка</string>
+    <string name="view_large">Крупный вид</string>
+    <string name="view_list">Список</string>
+
+    <string name="search_clear">Очистить поиск</string>
+    <string name="search_clear_history">Очистить историю</string>
+    <string name="search_filters">Фильтры</string>
+    <string name="search_recent">Последний поиск</string>
+
+    <string name="update_available">Доступно обновление</string>
+    <string name="update_later">Позже</string>
+    <string name="update_message">Доступна новая версия</string>
+    <string name="update_now">Обновить сейчас</string>
+    <string name="update_size">Размер: %s</string>
+    <string name="update_version">Версия: %s</string>
+    <string name="update_whats_new">Что нового</string>
+
+    <string name="dialog_button_cancel">Отмена</string>
+    <string name="dialog_button_ok">ОК</string>
+    <string name="dialog_button_save">Сохранить</string>
+    <string name="dialog_button_create">Создать</string>
+    <string name="dialog_button_delete">Удалить</string>
+    <string name="dialog_hint_playlist_name">Название списка</string>
+    <string name="dialog_message_delete">Вы уверены?</string>
+    <string name="dialog_message_download">Загрузка началась</string>
+    <string name="dialog_title_add_playlist">Добавить в список</string>
+    <string name="dialog_title_delete">Удалить</string>
+    <string name="dialog_title_download">Скачать</string>
+    <string name="dialog_title_new_playlist">Новый список</string>
+    <string name="dialog_title_rename">Переименовать</string>
+    <string name="dialog_title_settings">Настройки</string>
+    <string name="dialog_title_share">Поделиться</string>
+
+    <string name="lang_ar">Арабский</string>
+    <string name="lang_auto">Авто</string>
+    <string name="lang_en">Английский</string>
+    <string name="lang_fr">Французский</string>
+    <string name="lang_ur">Урду</string>
+    <string name="lang_de">Немецкий</string>
+    <string name="lang_es">Испанский</string>
+    <string name="lang_fa">Персидский</string>
+    <string name="lang_hi">Хинди</string>
+    <string name="lang_pt">Португальский</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_tr">Турецкий</string>
+    <string name="lang_zh">Китайский</string>
+
+    <string name="msg_retry">Повторить</string>
+    <string name="msg_try_again">Попробуйте еще раз</string>
+    <string name="network_mobile">Мобильные данные</string>
+    <string name="network_offline">Офлайн</string>
+    <string name="network_warning">Предупреждение о сети</string>
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="permission_denied">В доступе отказано</string>
+    <string name="permission_granted">Доступ разрешен</string>
+    <string name="permission_notification_message">Разрешить уведомления</string>
+    <string name="permission_notification_title">Уведомления</string>
+    <string name="permission_settings">Открыть настройки</string>
+    <string name="permission_storage_message">Разрешить доступ к памяти</string>
+    <string name="permission_storage_title">Доступ к памяти</string>
+    <string name="filter_duration">Фильтр по длительности</string>
+    <string name="more_than_30">Более 30 сек</string>
+    <string name="more_than_60">Более 60 сек</string>
+    <string name="show_all">Показать все</string>
+    <string name="premium_themes">Премиум темы</string>
+
+    <string name="setting_auto_play">Автовоспроизведение</string>
+    <string name="setting_background_play">Фоновое воспроизведение</string>
+    <string name="setting_dark_mode">Темный режим</string>
+    <string name="setting_gesture_control">Управление жестами</string>
+    <string name="setting_hardware_acceleration">Аппаратное ускорение</string>
+    <string name="setting_hide_controls">Скрыть кнопки</string>
+    <string name="setting_remember_position">Запоминать позицию</string>
+
+    <string name="unknown_title">Неизвестное название</string>
+    <string name="unknown_artist">Неизвестный исполнитель</string>
+    <string name="unknown_album">Неизвестный альбом</string>
+    <string name="unknown_date">Неизвестная дата</string>
+    <string name="unknown_duration">00:00</string>
+    <string name="unknown_folder">Неизвестная папка</string>
+    <string name="unknown_genre">Неизвестный жанр</string>
+</resources>

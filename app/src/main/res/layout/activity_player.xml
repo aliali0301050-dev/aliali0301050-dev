@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playerMainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A">
+
+    <!-- خلفية فنية ضبابية متغيرة -->
+    <ImageView
+        android:id="@+id/ivPlayerBlurBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_player_overlay" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- شريط التنقل العلوي -->
+        <include
+            android:id="@+id/topNavBar"
+            layout="@layout/layout_player_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- المشغل الدائري الفاخر -->
+        <FrameLayout
+            android:id="@+id/artStyleContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/infoSection"
+            app:layout_constraintTop_toBottomOf="@id/topNavBar">
+
+            <include
+                android:id="@+id/skin_circular"
+                layout="@layout/skin_circular" />
+        </FrameLayout>
+
+        <!-- معلومات الأغنية -->
+        <include
+            android:id="@+id/infoSection"
+            layout="@layout/layout_player_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@id/visualizer" />
+
+        <!-- الموازن البصري -->
+        <com.example.ringtoneplayer.ui.VisualizerView
+            android:id="@+id/visualizer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginHorizontal="40dp"
+            app:layout_constraintBottom_toTopOf="@id/extraControls" />
+
+        <!-- الأدوات الإضافية -->
+        <include
+            android:id="@+id/extraControls"
+            layout="@layout/layout_player_extra_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@id/controlsLayout" />
+
+        <!-- الكبسولة العصرية للتحكم -->
+        <include
+            android:id="@+id/controlsLayout"
+            layout="@layout/layout_player_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

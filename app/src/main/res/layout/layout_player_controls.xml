@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/controlsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="32dp"
+    android:layoutDirection="ltr">
+
+    <!-- زر التشغيل المركزي بتصميم الـ "Glow Neon" الفاخر -->
+    <FrameLayout
+        android:id="@+id/playPauseContainer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- هالة الضوء خلف الزر -->
+        <View
+            android:id="@+id/playGlow"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_background"
+            android:backgroundTint="@color/theme_accent_neon"
+            android:alpha="0.25" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="37dp"
+            app:cardElevation="12dp"
+            app:strokeWidth="0dp">
+
+            <ImageButton
+                android:id="@+id/btnPlayPause"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:padding="22dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_play"
+                app:tint="@color/bg_deep_navy" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+
+    <!-- أزرار التنقل (Next/Prev) بتصميم شفاف أنيق -->
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="14dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_previous"
+        app:layout_constraintBottom_toBottomOf="@id/playPauseContainer"
+        app:layout_constraintRight_toLeftOf="@id/playPauseContainer"
+        app:layout_constraintTop_toTopOf="@id/playPauseContainer"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="14dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_next"
+        app:layout_constraintBottom_toBottomOf="@id/playPauseContainer"
+        app:layout_constraintLeft_toRightOf="@id/playPauseContainer"
+        app:layout_constraintTop_toTopOf="@id/playPauseContainer"
+        app:tint="@color/white" />
+
+    <!-- أزرار الخيارات (Shuffle/Repeat) بتصميم زجاجي مصغر -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        app:cardBackgroundColor="#1AFFFFFF"
+        app:cardCornerRadius="23dp"
+        app:cardElevation="0dp"
+        app:strokeColor="#1AFFFFFF"
+        app:strokeWidth="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/playPauseContainer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/playPauseContainer">
+
+        <ImageButton
+            android:id="@+id/btnShuffle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_shuffle"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="24dp"
+        app:cardBackgroundColor="#1AFFFFFF"
+        app:cardCornerRadius="23dp"
+        app:cardElevation="0dp"
+        app:strokeColor="#1AFFFFFF"
+        app:strokeWidth="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/playPauseContainer"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/playPauseContainer">
+
+        <ImageButton
+            android:id="@+id/btnRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_repeat"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

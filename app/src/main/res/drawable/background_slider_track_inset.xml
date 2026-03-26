@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Inner Shadow Dark (Top Left) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <solid android:color="#30000000" />
+        </shape>
+    </item>
+
+    <!-- Inner Shadow Light (Bottom Right) -->
+    <item android:left="2dp" android:top="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <solid android:color="#40FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Inset Track Surface -->
+    <item android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <solid android:color="#E0E0E0" />
+        </shape>
+    </item>
+</layer-list>

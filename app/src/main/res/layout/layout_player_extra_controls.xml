@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/extraControls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp">
+
+    <ImageButton
+        android:id="@+id/btnList"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_playlist"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_update"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/btnTimer"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_timer"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/btnVolume"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_volume_up"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/btnEqualizer"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_equalizer"
+        android:contentDescription="@null" />
+</LinearLayout>
