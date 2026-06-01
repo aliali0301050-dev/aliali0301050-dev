@@ -25,7 +25,7 @@ This is my latest project built with modern Android technologies.
 ## 📥 Download & Try
 You can download the latest version (v1.2) directly from the link below:
 
-👉 [**Download My Music Player APK**](https://www.mediafire.com/file/4dsjll90ti0oc5j/My_Musicplayer.apk/file)
+👉 [**Download My Music Player APK**]https://www.mediafire.com/file/iqktu70xatakcat/RingtonePlayer_.apk/file)
 
 ---
 
