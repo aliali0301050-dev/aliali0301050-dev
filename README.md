@@ -41,7 +41,8 @@ Tools: Android Studio, Git/GitHub, MediaFire.
 [ ] Professional Video Player: In Development 🏗️
 
 
-https://www.mediafire.com/file/iqktu70xatakcat/RingtonePlayer_.apk/file
+https://apkpure.com/p/com.alineon.ringtoneplayer
+
 
 📫 How to reach me:
 Feel free to explore my other repositories, or reach out through the contact options provided within my applications. Let's build something great!
