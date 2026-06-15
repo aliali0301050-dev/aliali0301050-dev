@@ -7,7 +7,7 @@ Neon Glow Aesthetics: Delivering high-contrast, vibrant UI elements for a modern
 
 Mandala Art: Integrating intricate, artistic patterns for unique custom theme selectors.
 
-Performance Engineering: Crafting code optimized for high-end systems (i7/16GB RAM) to ensure seamless performance.
+
 
 🎵 Featured Project: Ringtone Player Pro
 My latest project, developed using modern Android architecture and best practices.
@@ -40,8 +40,7 @@ Tools: Android Studio, Git/GitHub, MediaFire.
 
 [ ] Professional Video Player: In Development 🏗️
 
-
-https://apkpure.com/p/com.alineon.ringtoneplayer
+ https://com-alineon-ringtoneplayer.uptodown.com/android 
 
 
 📫 How to reach me:
